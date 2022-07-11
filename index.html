@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Valency Quiz</title>
+</head>
+<body>
+    <h1 class="text-5xl text-white font-semibold text-center mt-32">Valency Test</h1>
+    <button class="rounded-full btn-start text-white font-normal text-center mx-auto mt-16" id="start">START</button>
+    <div class="container mx-auto hidden" style="width: 100vw; " id="questionContainer">
+        <p class="mt-16" style="color: #EEEEEE;" id="state">State The Valency Of :</p>
+        <p class="mt-2 text-2xl font-bold" style="color: #EEEEEE;" id="elementName"></p>
+        <input type="text" placeholder="Answer..." class="mx-auto text-center" id="answer">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
