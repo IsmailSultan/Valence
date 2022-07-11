@@ -17,5 +17,4 @@ Install my-project with git
     
 ## Lessons Learned
 
-Finally learned my valencies.
-
+Finally learned my valencies
